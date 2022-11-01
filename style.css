@@ -2,3 +2,23 @@ div {
     background-color: red;
     height: 50px;
 }
+nav {
+    background-color: aqua;
+    height: 50px;
+}
+header {
+    background-color: green;
+    height: 50px;
+}
+main {
+    background-color: blue;
+    height: 50px;
+}
+section {
+    background-color: purple;
+    height: 50px;
+}
+footer {
+    background-color: yellow;
+    height: 50px;
+}
