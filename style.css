@@ -27,6 +27,10 @@ nav img {
     height: 50px;
 }
 
+body nav a {
+    margin: 5px;
+}
+
 nav a{
     color: blue;
     font-size: 18pt;
