@@ -5,6 +5,8 @@ div {
 nav {
     background-color: red;
     height: 50px;
+    display: flex;
+    align-items: center;
 }
 header {
     background-color: green;
@@ -27,16 +29,13 @@ nav img {
     height: 50px;
 }
 
-body nav a {
-    margin: 5px;
-}
-
 nav a{
     color: blue;
     font-size: 18pt;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Nova Round', cursive;                                                      
+    font-family: 'Nova Round', cursive;
+    margin: 0 5px;                                                      
 }
 
 body {
