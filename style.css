@@ -3,7 +3,7 @@ div {
     height: 50px;
 }
 nav {
-    background-color: aqua;
+    background-color: red;
     height: 50px;
 }
 header {
@@ -21,4 +21,20 @@ section {
 footer {
     background-color: yellow;
     height: 50px;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav a{
+    color: blue;
+    font-size: 18pt;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Nova Round', cursive;                                                      
+}
+
+body {
+    border: 0px;
 }
