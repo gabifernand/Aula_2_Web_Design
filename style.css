@@ -39,7 +39,10 @@ nav a{
     margin: 0 20px;                                                      
 }
 
-
 body {
     margin: 0;
+}
+
+header {
+    background-image: url(https://www.thathashtagshow.com/wp-content/uploads/2022/09/amsterdam-trio-1-1280x640.jpg);
 }
