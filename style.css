@@ -45,15 +45,25 @@ body {
 }
 
 header {
-    background-image: url(https://www.thathashtagshow.com/wp-content/uploads/2022/09/amsterdam-trio-1-1280x640.jpg);
+    background-image: url(https://whatsondisneyplus.com/wp-content/uploads/2022/10/amsterdam-xx.jpg);
+    background-position:bottom;
     background-size:cover;
-    height: 670px;
+    height: 400px;
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 h1 {
+    font-size: 18px;
+}
+h2 {
+    font-size: 30px;
+}
+
+header h1, header h2 {
+    opacity: 0.85;
     color: red;
     background-color: black;
     height: 50px;
@@ -61,5 +71,5 @@ h1 {
     margin: 0px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }
