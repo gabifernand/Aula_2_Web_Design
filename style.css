@@ -1,3 +1,4 @@
+
 div {
     background-color: red;
     height: 50px;
@@ -35,12 +36,12 @@ nav a{
     font-size: 18pt;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Nova Round', cursive;
     margin: 0 20px;                                                      
 }
 
 body {
     margin: 0;
+    font-family: 'Nova Round', cursive;
 }
 
 header {
