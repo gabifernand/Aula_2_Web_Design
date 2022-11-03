@@ -47,4 +47,18 @@ header {
     background-image: url(https://www.thathashtagshow.com/wp-content/uploads/2022/09/amsterdam-trio-1-1280x640.jpg);
     background-size:cover;
     height: 670px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: red;
+    background-color: black;
+    height: 50px;
+    width: -webkit-fill-available;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
