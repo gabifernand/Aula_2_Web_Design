@@ -1,10 +1,11 @@
 
 div {
-    background-color: red;
+    background-color: black;
     height: 50px;
 }
 nav {
     background-color: red;
+    border: 2px solid black;
     height: 50px;
     display: flex;
     align-items: center;
@@ -12,18 +13,27 @@ nav {
 header {
     background-color: green;
     height: 50px;
+    margin-bottom: 10px;
 }
 main {
     background-color: blue;
     height: 50px;
 }
 section {
-    background-color: purple;
-    height: 50px;
+    background-color: black;
+    color: red;
+    display: flex;
+    flex-direction:column;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 footer {
-    background-color: yellow;
-    height: 50px;
+    background-color: black;
+    color: red;
+    font-size: 9pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav img {
@@ -31,8 +41,9 @@ nav img {
     margin: 0 20px 0 5px;
 }
 
+
 nav a{
-    color: blue;
+    color: black;
     font-size: 18pt;
     font-weight: bold;
     text-decoration: none;
@@ -42,6 +53,7 @@ nav a{
 body {
     margin: 0;
     font-family: 'Nova Round', cursive;
+    background-color: red;
 }
 
 header {
@@ -62,6 +74,11 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+    margin: 0;
+    display: flex
+}
+
 header h1, header h2 {
     opacity: 0.85;
     color: red;
@@ -72,4 +89,113 @@ header h1, header h2 {
     display: flex;
     align-items: center;
     justify-content: center
+}
+
+.card {
+    height: 315px;
+    width:31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.card button {
+    background-color: red;
+    color: white;
+    font-family: 'Nova Round', cursive;
+    font-weight: bold;
+    font-size: 12pt;
+    width: 95%;
+    padding: 6px 6px;
+}
+
+.card img{
+    width: 100%;
+    height: 180px;
+}
+
+.containerdecards {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    color: white;
+    height: auto;
+}
+
+.titulosessao {
+    margin: 10px;
+    color: red;
+    font-size: 14pt;
+}
+
+.topmenu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+h4 {
+    font-size: 14pt;
+    margin: 15px 0 0 0;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo {
+    margin: 0 10px;
+}
+.conteudo p {
+    font-size: 9pt;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 5px 10px 5px 0;
+}
+
+.conteudo button {
+    font-size: 9pt;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card:hover {
+    box-shadow: red 0px 0px 8px 2px;
+}
+
+button:hover {
+    background-color: rgb(250, 87, 87);
+}
+
+.contato input , .contato label {
+    display: block;
+    font-size: 12pt;
+}
+
+input {
+    height: 30px;
+}
+
+label{
+    margin: 10px 0px 0px 0px;
+}
+
+.titulosessao{
+    font-size: 30px;
+}
+
+.espaço {
+    margin: 20px 0 0 0;
+}
+
+footer p {
+    margin: 0px;
 }
