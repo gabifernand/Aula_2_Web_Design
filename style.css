@@ -173,6 +173,7 @@ h4 {
 
 button:hover {
     background-color: rgb(250, 87, 87);
+    cursor:pointer;
 }
 
 .contato input , .contato label {
